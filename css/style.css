@@ -1,0 +1,33 @@
+.blink_me {
+    animation: blinker 6.6s ease-out infinite;
+    font-size: 200px; 
+    text-align: center;
+    line-height: 100px; 
+    margin: 100px 0 0 0; 
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0.05;
+    }
+}
+  
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/Roboto_Slab/static/RobotoSlab-Thin.ttf') format('truetype');
+}
+
+h1 {
+    font-weight: 100;
+    padding: 0; 
+    margin: 0 0 0 0; 
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+main {
+    text-align: center; 
+}
+
