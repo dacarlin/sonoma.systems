@@ -88,25 +88,38 @@ div.hero2 * {
 
 body {
   background-image: url("../img/b5.png");
-  background-size: 100%;
-  
+  background-size: 100%;  
+
 }
 
 body * {
   font-family: "Lato", sans-serif;
+  
+}
+
+.hero {
+  height: 500px;
+}
+
+.hero h1 {
+  font-size: 200%;
 }
 
 .hero p {
   color: #fff; 
 }
 
-nav {
+.hero p a {
+  opacity: 1.0;
+}
+
+/* nav {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 0 1em;
   border: 1px solid #eee;
   border-radius: 6px;
   margin: 0 0 4em 0;
-}
+} */
 
 h1 {
   text-align: center;
