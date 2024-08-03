@@ -2,133 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+NO:wght@100..400&display=swap');
 
 
-
-.lato-thin {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-regular {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.lato-black {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.lato-thin-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.lato-light-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.lato-regular-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.lato-bold-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.lato-black-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-
-
-
-
-/* .team article img {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-} */
-
-/* div.hero2 {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  background-image: url("../img/b1.png");
-  background-size: cover;
-}
-
-div.hero2 * {
-  color: #fff; 
-  padding: 2em ;
-} */
-
-body {
-  background-image: url("../img/b5.png");
-  background-size: 100%;  
-
-}
-
-body * {
+h1, h2, h3, h4, p, li {
   font-family: "Lato", sans-serif;
   
 }
 
-.hero {
-  height: 500px;
-}
-
-.hero h1 {
-  font-size: 200%;
-}
-
-.hero p {
-  color: #fff; 
-}
-
-.hero p a {
-  opacity: 1.0;
-}
-
-/* nav {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 0 1em;
-  border: 1px solid #eee;
-  border-radius: 6px;
-  margin: 0 0 4em 0;
-} */
-
 h1 {
   text-align: center;
+  margin-top: 3em; 
 }
 
 h1 em {
   font-family: "Playwrite NO", cursive;
   font-style: normal;
-  border-bottom: 8px solid yellow; 
+  border-bottom: 8px solid rgba(255, 255, 0, 0.39); 
 }
 
 h1.team {
