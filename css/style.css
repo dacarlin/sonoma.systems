@@ -7,10 +7,20 @@ h1, h2, h3, h4, p, li {
   
 }
 
-h1 {
+.hero h1 {
   text-align: center;
-  margin-top: 3em; 
+  padding-top: 66px;
+
 }
+
+p.calltoaction {
+  text-align: center;
+}
+
+p.calltoaction a {
+  margin: 0.2em;
+}
+
 
 h1 em {
   font-family: "Playwrite NO", cursive;
